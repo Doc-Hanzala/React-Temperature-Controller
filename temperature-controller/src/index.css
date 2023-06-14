@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  background: lightcyan;
+}
+
+section {
+  width: 90vw;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+  padding: 2rem 0;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  position: relative;
+  top: 60px;
+}
+
+.card-header {
+  border: 2px soli red;
+  background: red;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem auto;
+  border: gray 4px solid;
+}
+
+.card-footer {
+  padding: 2rem 0;
+}
+
+button {
+  padding: 0.5rem 0.85rem;
+  margin-left: 0.8rem;
+  border-radius: 5px;
+  background: black;
+  color: wheat;
+  font-size: 2rem;
+  width: 60px;
+  text-align: center;
+  border: black 2px solid;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: lightblue;
+}
